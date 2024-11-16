@@ -1,0 +1,72 @@
+body {
+  /* background-color: rgb(25, 25, 25); */
+  background-color: #00171F;
+  color: white;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid white;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.move-button:hover {
+  background-color: #003459;
+}
+
+.scissors-button {
+  margin-right: 0;
+}
+
+.buttons-container {
+  text-align: center;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.move {
+  text-align: center;
+}
+
+.score {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.reset-button {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+/* from js course by supersimpledev */
+/* a practice task by fidbi hasan */
